@@ -1,4 +1,4 @@
-# ProjetoSaudeDigital
+# Projeto Saúde Digital
 ## Repositório de documentos sobre o projeto do Núcleo de Saúde Digital
 
 Desenvolver e programar a estrutura do Núcleo de Saúde Digital (NSD) com foco em comunicação e disseminação de informações 
