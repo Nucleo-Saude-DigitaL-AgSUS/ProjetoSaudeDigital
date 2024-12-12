@@ -178,41 +178,45 @@ eBook - Manual de Integração de Médicos do Núcleo de Saúde Digital
 
 ### 6.1. Ambiente
 
-Ambiente privativo e silencioso: o local deve ser livre de distrações e ruídos, com acústica apropriada para garantir a privacidade e a concentração. Não é adequado estar em movimento, por exemplo dirigindo, caminhando ou em área ou situações expostas a riscos.
-Sala Específica para Atendimento
+**Ambiente privativo e silencioso:** o local deve ser livre de distrações e ruídos, com acústica apropriada para garantir a privacidade e a concentração. Não é adequado estar em movimento, por exemplo dirigindo, caminhando ou em área ou situações expostas a riscos.
+**Sala Específica para Atendimento**
 A sala deve ser isolada e preparada para a realização do atendimento sem interferências externas. Caso o local seja improvisado, providenciar materiais de isolamento acústico e visual (por exemplo, cortinas blackout e isolamento de ruídos). Identificar as áreas da UBS que podem ser usadas para teleatendimento e adequá-las com ventilação, iluminação e ergonomia. Realizar manutenção periódica para corrigir eventuais falhas.
-Iluminação adequada e fundo neutro: opte por fundo liso e claro, sem muitos detalhes, e assegure uma iluminação suficiente para que os rostos do paciente e do profissional de saúde sejam visíveis, evitando ofuscamento. Isso ajuda a manter o foco na conversa.
-Ponto de Energia
+**Iluminação adequada e fundo neutro:** opte por fundo liso e claro, sem muitos detalhes, e assegure uma iluminação suficiente para que os rostos do paciente e do profissional de saúde sejam visíveis, evitando ofuscamento. Isso ajuda a manter o foco na conversa.
+**Ponto de Energia**
 Garantir que a sala tenha acesso a pontos de energia suficientes para todos os equipamentos. Utilizar estabilizadores e nobreaks para evitar danos por variações de energia e garantir a continuidade do atendimento em caso de falta de energia. 
-Qualidade de Vídeo
+**Qualidade de Vídeo**
 Garantir que as webcams utilizadas sejam capazes de transmitir vídeo em qualidade de 1080p. Realizar testes periódicos para verificar a integridade das câmeras e garantir que os atendimentos sejam claros e com boa resolução.
-Mobiliário: é importante ter uma cadeira e mesa ergonômicas e ajustáveis para facilitar o uso da câmera.
-Vestimenta: a escolha da vestimenta e a higiene pessoal são tão importantes quanto em uma consulta presencial. O uso de uniforme, quando necessário, demonstra profissionalismo, cuidado e confiabilidade.
-Conectividade (Internet): uma conexão de internet estável e rápida é fundamental para evitar interrupções durante a consulta. Utilizar conexões cabeadas sempre que possível, preferencialmente com uma velocidade mínima de 5 Mbps para garantir estabilidade. Manter Wi-Fi e 4G como backup, com roteadores de alta qualidade e testes de velocidade semanais. Em áreas com sinal de internet precário, utilizar internet 4G de backup com planos de dados adequados.
-Dispositivos tecnológicos: é necessário ter à disposição um computador, teclado, mouse, câmera, microfone, fones de ouvido ou caixas de som e uma impressora.
-Acessibilidade
+**Mobiliário:** é importante ter uma cadeira e mesa ergonômicas e ajustáveis para facilitar o uso da câmera.
+**Vestimenta:** a escolha da vestimenta e a higiene pessoal são tão importantes quanto em uma consulta presencial. O uso de uniforme, quando necessário, demonstra profissionalismo, cuidado e confiabilidade.
+**Conectividade (Internet):** uma conexão de internet estável e rápida é fundamental para evitar interrupções durante a consulta. Utilizar conexões cabeadas sempre que possível, preferencialmente com uma velocidade mínima de 5 Mbps para garantir estabilidade. Manter Wi-Fi e 4G como backup, com roteadores de alta qualidade e testes de velocidade semanais. Em áreas com sinal de internet precário, utilizar internet 4G de backup com planos de dados adequados.
+**Dispositivos tecnológicos:** é necessário ter à disposição um computador, teclado, mouse, câmera, microfone, fones de ouvido ou caixas de som e uma impressora.
+**Acessibilidade**
 Providenciar recursos para atender deficientes visuais, auditivos e pessoas com mobilidade reduzida. Implementar legendas automáticas, tradutores de libras e intérpretes para deficientes auditivos, além de cadeira adaptada e equipamentos de fácil acesso para pessoas com mobilidade limitada. Oferecer treinamento regular para os atendentes.
 O uso da tecnologia na assistência depende da validação técnica, operacional e funcional dos dispositivos eletrônicos nas UBSs. É essencial disponibilizar um checklist para  avaliar a qualidade dos equipamentos e testar a conectividade com periodicidade diária, com a presença de um membro da equipe local para garantir a manutenção da infraestrutura e o funcionamento adequado do serviço.
-6.2. Equipamentos
-Computador: o hardware, processador e placa de vídeo devem ser compatíveis para garantir um contato de áudio e vídeo de alta qualidade.
-Periféricos: Monitor, caixa de som, microfone, ou headset, e câmera, sendo recomendável o uso de monitores em qualidade HD. Os equipamentos devem ser testados previamente e estar em bom funcionamento, preferindo-se o uso de headsets.
-Smartphone e tablet: devem ser utilizados dispositivos profissionais, e não pessoais, para contingência. É importante manter o aparelho em um tripé ou suporte estável e bem posicionado.
-Tripé Ajustável
+
+### 6.2. Equipamentos
+
+**Computador:** o hardware, processador e placa de vídeo devem ser compatíveis para garantir um contato de áudio e vídeo de alta qualidade.
+**Periféricos:** Monitor, caixa de som, microfone, ou headset, e câmera, sendo recomendável o uso de monitores em qualidade HD. Os equipamentos devem ser testados previamente e estar em bom funcionamento, preferindo-se o uso de headsets.
+**Smartphone e tablet:** devem ser utilizados dispositivos profissionais, e não pessoais, para contingência. É importante manter o aparelho em um tripé ou suporte estável e bem posicionado.
+**Tripé Ajustável**
 Os tablets devem estar configurados com as plataformas necessárias para teleatendimento. O tripé deve ser estável e ajustável para manter o dispositivo na posição ideal durante os atendimentos. Realizar testes periódicos.
-Impressoras
+**Impressoras**
 A impressora deverá estar conectada ao equipamento que será utilizado juntamente com o sistema PEC para impressão de prontuários, receitas e atestados. A impressora deverá estar disponível durante todo o atendimento, sendo necessário o teste prévio para assegurar a disponibilidade.
-6.3. Sistemas
-Sistema Operacional
+
+### 6.3. Sistemas
+
+**Sistema Operacional**
 Usar sistemas operacionais estáveis e atualizados (Linux ou Windows). Realizar manutenção preventiva e atualizações de segurança regularmente para evitar vulnerabilidades.
-Ferramentas Colaborativas
+**Ferramentas Colaborativas**
 Garantir o acesso a editores de texto e planilhas eletrônicas (Google Docs, Microsoft Office ou equivalente). Realizar backups automáticos dos dados e garantir que as ferramentas estejam acessíveis sem falhas.
-Browser
+**Browser**
 Manter navegadores atualizados (Chrome, Edge ou Firefox) para garantir a compatibilidade com sistemas de teleatendimento. Testar mensalmente a funcionalidade dos navegadores e realizar atualizações.
-Leitor de PDF
+**Leitor de PDF**
 Garantir que o leitor de PDF (como Adobe Acrobat) esteja sempre atualizado para permitir o correto acesso aos documentos necessários. Realizar treinamentos para uso eficiente.
-Prontuário Eletrônico
+**Prontuário Eletrônico**
 Utilizar a versão mais recente do Prontuário Eletrônico MS (preferencialmente PEC versão 5.3). Garantir que o sistema esteja funcionando 100%, com suporte técnico disponível em caso de falhas.
-Plataforma de Prescrição Eletrônica
+**Plataforma de Prescrição Eletrônica**
 Implementar plataforma de prescrição eletrônica com suporte ao (CFM). Garantir que todos os usuários tenham treinamento adequado e que o sistema funcione de forma eficiente, com backup em caso de falhas.
 
 A escolha de aplicativos e plataformas deve ser criteriosa, baseada em evidências científicas e na validação e autorização dos órgãos competentes no país, garantindo que sejam adequados tanto para os profissionais de saúde quanto para os usuários. O primeiro passo é identificar soluções testadas e aprovadas em contextos semelhantes, com estudos que avaliem desfechos relevantes. A tecnologia escolhida deve melhorar o acesso e/ou a qualidade do serviço. Caso contrário, sua adoção não se justifica.
@@ -223,23 +227,29 @@ Um dos passos mais importantes para implementação de um ambiente de atendiment
 Neste cenário devemos considerar o uso de uma boa rede de comunicação que tenha qualidade para tráfego de áudio e vídeo, colaborando assim com o objetivo do atendimento, bem como a certeza de que o recurso disponibilizado permite a interação à distância. Portanto, a escolha do canal adequado fará a diferença no atendimento e registro das informações passadas pelo usuário que se encontra em um contexto remoto.
 Outro aspecto da seleção da tecnologia a ser utilizada está também nos tipos de dispositivos que podem ser aplicados a esta comunicação os quais seguem um padrão de interoperabilidade e integração,  que tenham usabilidade e portabilidade garantindo também a mobilidade destes no sentido de poder utilizar a tecnologia de forma dinâmica sem a necessidade de se prender a uma solução que gere a dependência de um conjunto de recursos, a saber:
 A utilização de um Tablet ou Notebook por exemplo no atendimento em uma UBS, elimina a necessidade de uma estrutura de vários equipamentos que possuam recursos considerados conectáveis ou seja, dispositivos como câmeras de vídeo, Microfones, auto-falantes, energia elétrica¹ em um computador pessoal de uso que seja aplicável ao ambiente, podendo levantar vários pontos de falha no ambiente que será utilizado no teleatendimento.  Portanto, a tecnologia móvel simplificará o acesso dos ACS e disponibilização para o usuário no momento do teleatendimento. (considerando um atendimento remoto onde não é possível a utilização de computador, mas que permita a utilização de um tablet que tenha autonomia de bateria)
-FLUXO DE ATENDIMENTO DO USUÁRIO NA UBS
-7.1. Atores Envolvidos
+
+## FLUXO DE ATENDIMENTO DO USUÁRIO NA UBS
+
+### 7.1. Atores Envolvidos
+
 Profissional eSF;
 Usuário do SUS;
 Gestor Municipal; e,
 Médico (Teleatendimento).
 
-7.2. Início da Consulta
+### 7.2. Início da Consulta
+
 Usuário sem/com agendamento chega à UBS para atendimento médico;
 Profissionais da eSF realizam acolhimento/pré-atendimento e classificação de risco;
 Usuário necessita de atendimento Médico?
-NÃO - Equipe direciona para atividade que o usuário necessita.
-SIM - É elegível para Teleconsulta?
-NÃO - Agendar consulta presencial na APS e/ou encaminhar para serviço pertinente.
-SIM - preparação do ambiente para teleconsulta.
+**NÃO** - Equipe direciona para atividade que o usuário necessita.
+**SIM** - É elegível para Teleconsulta?
+**NÃO** - Agendar consulta presencial na APS e/ou encaminhar para serviço pertinente.
+**SIM** - preparação do ambiente para teleconsulta.
 Médico(a) realiza consulta médica e solicita apoio dos profissionais da eSF para realização de exame físico, orientações e procedimentos;
-7.3. Desfecho da Consulta
+
+### 7.3. Desfecho da Consulta
+
 Retorno para consulta agendada;
 Retorno para cuidado continuado/programado;
 Agendamento para grupos;
@@ -254,17 +264,21 @@ Encaminhamento para serviço de Atenção Domiciliar; e,
 Encaminhamento intersetorial.
 Os profissionais da eSF aplicam a pesquisa de satisfação para o usuário.
 
+### 7.4. Imagem Fluxo de Atendimento
 
-7.4. Imagem Fluxo de Atendimento
+**Imagem de exemplo**
 
-Imagem de exemplo
-OPERAÇÃO NO TELEATENDIMENTO
-8.1.1 Perspectiva do Profissional Médico
+## OPERAÇÃO NO TELEATENDIMENTO
+
+### 8.1.1 Perspectiva do Profissional Médico
+
 Usar smartphone, tablet, computador ou notebook.
 Estar  conectado a uma rede de internet 4G ou Wi-Fi.
 O ambiente deve ser bem iluminado, evitando que a fonte de luz esteja  atrás de você.
 Vista-se adequadamente para prestar o atendimento médico.
-8.1.2 Perspectiva do(a) Usuário (UBS)              
+
+### 8.1.2 Perspectiva do(a) Usuário (UBS)              
+
 Usar um smartphone, tablet, computador ou notebook.
 Estar conectado a uma rede de internet 4G ou Wi-Fi.
 Certifique-se que o dispositivo foi carregado.
@@ -276,15 +290,18 @@ Se estiver utilizando um telefone celular coloque-o, preferencialmente, na horiz
 Use roupas apropriadas para realização de consulta médica ou atividade de reabilitação, que sejam confortáveis e não limitem os movimentos.
 O ambiente deve ser bem iluminado. Mas, evite deixar a fonte de luz (janela, por exemplo) atrás de você.
 
-8.2. Passo a Passo  - Teleatendimento (Usuário)
+### 8.2. Passo a Passo  - Teleatendimento (Usuário)
+
 Anote suas dúvidas.
 Separe os medicamentos que está utilizando.
 Reúna os últimos exames realizados.
 Procure manter a privacidade do ambiente escolhido.
 Caso necessário, solicite auxílio de uma pessoa de confiança.
 Procure manter o ambiente livre de ruídos como de televisão, de eletrodomésticos, animais de estimação, etc.
-8.3. Check-list da Teleconsulta para MFCs
-(Diagramação tipo “Check”)
+
+### 8.3. Check-list da Teleconsulta para MFCs
+
+**(Diagramação tipo “Check”)**
 Apresente- se à pessoa, atente-se a um vestuário adequado.
 Confirme a identidade da pessoa através dos dados do prontuário e de seus acompanhantes (se houver).
 Confirme com a pessoa se a recepção do som e vídeo estão claros.
@@ -295,48 +312,67 @@ Caso a pessoa não atenda à chamada, registre no prontuário os horários das t
 Pactue e esclareça o fluxo para o envio de atestados, prescrições, solicitações de exames, entre outros.
 Confirme com a pessoa se necessita algum esclarecimento, uma vez que é possível que algo tenha se perdido.
 Para finalizar, avise que irá desconectar e se despeça.
-PLANO DE RESPOSTA A INCIDENTES (Contingenciamento)
-9.1. Falha de Equipamento
-Ação: Substituição imediata por equipamentos de backup disponíveis. Manutenção corretiva ou troca de peças defeituosas.
-Responsável: Técnico de TI, Equipe local ou Gestor da UBS.
-9.2. Falha de Conectividade
-Ação: Utilizar 4G como backup, realizar reboot dos dispositivos de rede e acionar a operadora para solucionar o problema.
-Responsável: Equipe local.
-9.3. Falha no Sistema Operacional ou Software
-Ação: Verificar possibilidade de re-instalação do software afetado. Contatar suporte técnico para resolução de problemas mais complexos.
-Responsável: Equipe local.
-9.4. Falha de Energia
-Ação: Garantir que a fonte de energia esteja funcionando corretamente. Em caso de queda prolongada de energia, reagendar o atendimento para outra data ou, se necessário, optar pela chamada telefônica.
-Responsável: Equipe local.
-9.5. Falha na Qualidade de Áudio ou Vídeo
-Ação: Verificar conexões de dispositivos, testar configurações de áudio e vídeo. Se necessário, optar pela chamada telefônica.
-Responsável: Técnico de TI ou responsável pelo atendimento.
-SEGURANÇA E ÉTICA
+
+## PLANO DE RESPOSTA A INCIDENTES (Contingenciamento)
+
+### 9.1. Falha de Equipamento
+
+**Ação:** Substituição imediata por equipamentos de backup disponíveis. Manutenção corretiva ou troca de peças defeituosas.
+**Responsável:** Técnico de TI, Equipe local ou Gestor da UBS.
+
+### 9.2. Falha de Conectividade
+
+**Ação:** Utilizar 4G como backup, realizar reboot dos dispositivos de rede e acionar a operadora para solucionar o problema.
+**Responsável:** Equipe local.
+
+### 9.3. Falha no Sistema Operacional ou Software
+
+**Ação:** Verificar possibilidade de re-instalação do software afetado. Contatar suporte técnico para resolução de problemas mais complexos.
+**Responsável:** Equipe local.
+
+### 9.4. Falha de Energia
+
+**Ação:** Garantir que a fonte de energia esteja funcionando corretamente. Em caso de queda prolongada de energia, reagendar o atendimento para outra data ou, se necessário, optar pela chamada telefônica.
+**Responsável:** Equipe local.
+
+### 9.5. Falha na Qualidade de Áudio ou Vídeo
+
+**Ação:** Verificar conexões de dispositivos, testar configurações de áudio e vídeo. Se necessário, optar pela chamada telefônica.
+**Responsável:** Técnico de TI ou responsável pelo atendimento.
+
+## SEGURANÇA E ÉTICA
+
 A segurança dos dados de saúde dos usuários é um ponto essencial para a implementação de telessaúde. 
 
-10.1. As práticas recomendadas incluem
+### 10.1. As práticas recomendadas incluem
 
-Criptografia de Dados: Todos os dados sensíveis, incluindo informações médicas e registros de consultas, devem ser criptografados tanto no armazenamento quanto na transmissão.
+**Criptografia de Dados:** Todos os dados sensíveis, incluindo informações médicas e registros de consultas, devem ser criptografados tanto no armazenamento quanto na transmissão.
 Autenticação e Controle de Acesso: Implementação de sistemas de autenticação robustos, com múltiplos fatores, para garantir que apenas profissionais autorizados acessem as informações do usuário.
 Conformidade com a LGPD: A Lei Geral de Proteção de Dados (LGPD), estabelecida pela Lei no 13.709 em 14 de agosto de 2018, regula o tratamento de dados pessoais, incluindo aqueles realizados em ambientes digitais, por pessoas físicas e jurídicas, tanto do setor público quanto privado. Seu objetivo é salvaguardar os direitos fundamentais à liberdade, à privacidade e ao desenvolvimento pessoal. A telessaúde deve estar em total conformidade com a Lei Geral de Proteção de Dados (LGPD), garantindo que o consentimento informado do indivíduo seja obtido antes do compartilhamento de dados e que as informações sejam armazenadas de forma segura.
-10.2. Princípios de Ética:
+
+### 10.2. Princípios de Ética:
 
 A ética deve ser mantida em todos os aspectos da telessaúde, tanto na comunicação com o usuário quanto no uso das tecnologias. Considerações éticas incluem:
-Confidencialidade: Todos os dados da pessoa devem ser tratados de forma confidencial, com a autorização da mesma para o uso das informações. As consultas devem ser realizadas em ambientes seguros e privados.
-Consentimento Informado: O usuário deve ser informado sobre as tecnologias utilizadas, o tipo de consulta remota que está sendo realizada e as implicações da telessaúde em seu atendimento.
-Transparência na Comunicação: A comunicação entre médicos e usuários deve ser clara, respeitosa e transparente, garantindo que a pessoa compreenda todos os aspectos do seu atendimento.
-EFICIÊNCIA
+**Confidencialidade:** Todos os dados da pessoa devem ser tratados de forma confidencial, com a autorização da mesma para o uso das informações. As consultas devem ser realizadas em ambientes seguros e privados.
+**Consentimento Informado:** O usuário deve ser informado sobre as tecnologias utilizadas, o tipo de consulta remota que está sendo realizada e as implicações da telessaúde em seu atendimento.
+**Transparência na Comunicação:** A comunicação entre médicos e usuários deve ser clara, respeitosa e transparente, garantindo que a pessoa compreenda todos os aspectos do seu atendimento.
+
+## EFICIÊNCIA
+
 A eficiência no atendimento pode ser otimizada com o uso de tecnologias que aumentam a rapidez e precisão dos processos. Alguns princípios incluem:
 Uso de Sistemas Integrados: Sistemas de prontuário eletrônico, integração com dados de saúde ajudam a garantir que todas as informações sobre a pessoa estejam acessíveis de forma rápida e organizada.
 Automação de Processos Administrativos: Processos como agendamento de consultas, envio de lembretes e registros de informações podem ser automatizados para melhorar a eficiência operacional.
-TREINAMENTO E CAPACITAÇÃO
+
+## TREINAMENTO E CAPACITAÇÃO
+
 A capacitação de profissionais é essencial para garantir que a telessaúde seja utilizada de forma adequada e eficaz. O treinamento deve incluir o uso das plataformas de telemedicina, sistemas de prontuário eletrônico, protocolos de segurança e ética na comunicação. Também é importante garantir que os profissionais de saúde saibam como lidar com eventuais falhas tecnológicas e como realizar o atendimento em situações emergenciais. 
 Após a definição da infraestrutura e a configuração dos dispositivos tecnológicos, é fundamental que a equipe de TI avalie as habilidades digitais dos responsáveis nas UBSs. Essa avaliação tem como objetivo oferecer orientações práticas para otimizar as atividades diárias, incluindo a criação de atalhos para as plataformas utilizadas.
 Com base na pré-avaliação das habilidades digitais, é necessário promover a capacitação dos profissionais de saúde para o uso dos sistemas relevantes, como PEC e-SUS, a Plataforma de Prescrição Eletrônica do CFM, ferramentas para mensuração de resultados - como pesquisas de satisfação e formulários de coleta de indicadores - e simulações de teleconsulta médica. A capacitação pode ser oferecida de forma síncrona, por meio de videoconferências graváveis com o consentimento dos participantes, e de forma assíncrona, incluindo a leitura das instruções apresentadas neste guia.
 As configurações devem garantir a privacidade dos dados das teleconsultas e solicitar permissão para acesso ao microfone e ao áudio pelos softwares utilizados. Sistemas mais complexos podem requerer assistência em serviço da equipe de implantação durante o início do uso. No entanto, é essencial que exista um serviço de suporte contínuo, preferencialmente disponível em tempo real ou com um tempo de resposta mínimo, para identificar falhas e corrigir problemas rapidamente.
 Para apoiar essa estratégia, sugerimos a utilização da Trilha Formativa da plataforma e-SUS APS desenvolvida por parceria entre a UFMG e o Ministério da Saúde. O curso Panorama da Saúde Digital no Brasil pretende preparar os profissionais da APS para que utilizem todo o potencial dos sistemas de informação, como um dos pilares da transformação digital esperada na saúde. 
 
-CONCLUSÃO
+## CONCLUSÃO
+
 A implementação da telessaúde nas Unidades Básicas de Saúde traz benefícios significativos, não apenas para os usuários, mas também para os profissionais de saúde e o sistema de saúde como um todo. Com o uso de tecnologias adequadas, como dispositivos móveis, plataformas de videoconferência e sistemas de monitoramento remoto, é possível aumentar o acesso à saúde, reduzir custos e melhorar a eficiência dos atendimentos. Ao adotar boas práticas de segurança, ética e eficiência, as UBS podem proporcionar um atendimento de alta qualidade, garantindo a proteção dos dados dos pacientes e a continuidade do cuidado. A telessaúde não é apenas uma solução prática, mas uma verdadeira transformação na maneira como pensamos a prestação de cuidados à saúde.
 
 
@@ -354,10 +390,10 @@ A implementação da telessaúde nas Unidades Básicas de Saúde traz benefício
 
 
 
-REFERÊNCIAS BIBLIOGRÁFICAS
+## REFERÊNCIAS BIBLIOGRÁFICAS
 
-BRASIL. Ministério da Saúde. Portaria nº 3.691, de 23 de maio de 2024. Altera a Portaria de Consolidação GM/MS nº 5, de 28 de setembro de 2017, para instituir a Ação Estratégica SUS Digital - Telessaúde. Diário Oficial da União, Brasília, DF, 23 mai 2024.
-TELECONSULTA para Atenção Primária à Saúde: Guia de Fundamentos Práticos - Assistência à Gestão. [S. l.: s. n.], 2024.
-BRASIL. Ministério da Saúde. Secretaria de Atenção Primária à Saúde. Manual e-SUS APS. Brasília-DF, 2024. Disponível em: https://saps-ms.github.io/Manual-eSUS_APS/
+**BRASIL**. Ministério da Saúde. Portaria nº 3.691, de 23 de maio de 2024. Altera a Portaria de Consolidação GM/MS nº 5, de 28 de setembro de 2017, para instituir a Ação Estratégica SUS Digital - Telessaúde. Diário Oficial da União, Brasília, DF, 23 mai 2024.
+**TELECONSULTA** para Atenção Primária à Saúde: Guia de Fundamentos Práticos - Assistência à Gestão. [S. l.: s. n.], 2024.
+**BRASIL**. Ministério da Saúde. Secretaria de Atenção Primária à Saúde. Manual e-SUS APS. Brasília-DF, 2024. Disponível em: https://saps-ms.github.io/Manual-eSUS_APS/
 
 
