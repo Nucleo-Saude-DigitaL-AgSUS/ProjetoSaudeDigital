@@ -37,50 +37,50 @@
 - TDIC - Tecnologia da Informação e Comunicação
 - WI-FI - Wireless Fidelity (Tecnologia de Comunicação sem Fio)
 - 4G - Rede Móvel de Quarta Geração
-5G - Rede Móvel de Quinta Geração
-Mbps - Megabits por Segundo
-HD - High Definition (Alta Definição)
-Smartphone - Telefone celular que realiza muitas funções de um computador.
-Internet - Rede mundial de computadores
-SAPS - Secretaria de Atenção Primária à Saúde
-ACS - Agente Comunitário de Saúde
-UFMG - Universidade Federal de Minas Gerais
+- 5G - Rede Móvel de Quinta Geração
+- Mbps - Megabits por Segundo
+- HD - High Definition (Alta Definição)
+- Smartphone - Telefone celular que realiza muitas funções de um computador.
+- Internet - Rede mundial de computadores
+- SAPS - Secretaria de Atenção Primária à Saúde
+- ACS - Agente Comunitário de Saúde
+- UFMG - Universidade Federal de Minas Gerais
 
 
-APRESENTAÇÃO	2
-1. INTRODUÇÃO	3
-1.1. Sobre este Guia	4
-2. VISÃO GERAL	4
-2.1 História e evolução da telessaúde no Brasil	5
-3. OBJETIVO	6
-4. ESCOPO	6
-5. INSTRUMENTOS OPERACIONAIS	7
-4.3. Benefícios Esperados:	10
-6. ASPECTOS TÉCNICOS	11
-6.1. Ambiente	11
-6.2. Equipamentos	12
-6.3. Sistemas	13
-7. FLUXO DE ATENDIMENTO DO USUÁRIO NA UBS	15
-7.1. Atores Envolvidos	15
-7.2. Início da Consulta	15
-7.3. Desfecho da Consulta	16
-8. OPERAÇÃO NO TELEATENDIMENTO	16
-8.1  O que é necessário para o Teleatendimento?	16
-8.2. Como você deve se preparar para o Teleatendimento?	17
-8.3. Check-list	17
-9. PLANO DE RESPOSTA A INCIDENTES (Contingenciamento)	18
-9.1. Falha de Equipamento	18
-9.2. Falha de Conectividade	18
-9.3. Falha no Sistema Operacional ou Software	18
-9.4. Falha de Energia	19
-9.5. Falha na Qualidade de Áudio ou Vídeo	19
-10. SEGURANÇA E ÉTICA	19
-10.1. As práticas recomendadas incluem	19
-10.2. Princípios de Ética:	20
-11. EFICIÊNCIA	20
-12. TREINAMENTO E CAPACITAÇÃO	21
-13. CONCLUSÃO	22
-14. REFERÊNCIAS BIBLIOGRÁFICAS	22
+# Índice
+- [1. INTRODUÇÃO](#1-introdução)
+  - [1.1. Sobre este Guia](#11-sobre-este-guia)
+- [2. VISÃO GERAL](#2-visão-geral)
+  - [2.1. História e evolução da telessaúde no Brasil](#21-história-e-evolução-da-telessaúde-no-brasil)
+- [3. OBJETIVO](#3-objetivo)
+- [4. ESCOPO](#4-escopo)
+- [5. INSTRUMENTOS OPERACIONAIS](#5-instrumentos-operacionais)
+  - [4.3. Benefícios Esperados](#4.3-benefícios-esperados)
+- [6. ASPECTOS TÉCNICOS](#6-aspectos-técnicos)
+  - [6.1. Ambiente](#6.1-ambiente)
+  - [6.2. Equipamentos](#6.2-equipamentos)
+  - [6.3. Sistemas](#6.3-sistemas)
+- [7. FLUXO DE ATENDIMENTO DO USUÁRIO NA UBS](#7-fluxo-de-atendimento-do-usuário-na-ubs)
+  - [7.1. Atores Envolvidos](#7.1-atores-envolvidos)
+  - [7.2. Início da Consulta](#7.2-início-da-consulta)
+  - [7.3. Desfecho da Consulta](#7.3-desfecho-da-consulta)
+- [8. OPERAÇÃO NO TELEATENDIMENTO](#8-operação-no-teleatendimento)
+  - [8.1. O que é necessário para o Teleatendimento?](#8.1-o-que-é-necessário-para-o-teleatendimento)
+  - [8.2. Como você deve se preparar para o Teleatendimento?](#8.2-como-você-deve-se-preparar-para-o-teleatendimento)
+  - [8.3. Check-list](#8.3-check-list)
+- [9. PLANO DE RESPOSTA A INCIDENTES (Contingenciamento)](#9-plano-de-resposta-a-incidentes-contingenciamento)
+  - [9.1. Falha de Equipamento](#9.1-falha-de-equipamento)
+  - [9.2. Falha de Conectividade](#9.2-falha-de-conectividade)
+  - [9.3. Falha no Sistema Operacional ou Software](#9.3-falha-no-sistema-operacional-ou-software)
+  - [9.4. Falha de Energia](#9.4-falha-de-energia)
+  - [9.5. Falha na Qualidade de Áudio ou Vídeo](#9.5-falha-na-qualidade-de-áudio-ou-vídeo)
+- [10. SEGURANÇA E ÉTICA](#10-segurança-e-ética)
+  - [10.1. As práticas recomendadas incluem](#10.1-as-práticas-recomendadas-incluem)
+  - [10.2. Princípios de Ética](#10.2-princípios-de-ética)
+- [11. EFICIÊNCIA](#11-eficiência)
+- [12. TREINAMENTO E CAPACITAÇÃO](#12-treinamento-e-capacitação)
+- [13. CONCLUSÃO](#13-conclusão)
+- [14. REFERÊNCIAS BIBLIOGRÁFICAS](#14-referências-bibliográficas)
 
 
 ## APRESENTAÇÃO
@@ -94,9 +94,9 @@ Está ainda entre as suas competências desenvolver o ensino, a pesquisa e a ext
 
 
 
-## INTRODUÇÃO
+## 1. INTRODUÇÃO
 
-### 1.1. Sobre este Guia
+## 1.1. Sobre este Guia
 Este guia foi elaborado para fornecer um conjunto de boas práticas para a implementação bem-sucedida de telessaúde, garantindo a integração de tecnologias, a proteção de dados sensíveis e a melhoria na qualidade do atendimento, com base em princípios éticos e de segurança. O guia também abrange planos de contingência, treinamentos e capacitação necessários para garantir que todos os envolvidos na utilização das tecnologias estejam bem preparados.
 A integração dos programas de atenção à saúde e a implementação de programas de telessaúde nas Unidades Básicas de Saúde (UBS) permite que pacientes em regiões mais distantes ou em situações de vulnerabilidade social tenham acesso a consultas médicas e monitoramento contínuo de suas condições de saúde, sem a necessidade de deslocamentos longos e custosos. Além disso, o uso de tecnologias proporciona aos profissionais de saúde a oportunidade de otimizar o seu tempo e aumentar a eficiência no acompanhamento dos pacientes.
 Fica instituída a Ação Estratégica SUS Digital - Telessaúde, no âmbito do Programa SUS Digital, com o objetivo de apoiar a consolidação das redes de atenção à saúde e do Subsistema de Saúde Indígena, por meio do estabelecimento de diretrizes e da oferta de serviços que promovam a integralidade e a continuidade do cuidado entre todos os níveis de atenção no Sistema Único de Saúde - SUS.¹
