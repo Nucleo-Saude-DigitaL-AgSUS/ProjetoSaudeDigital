@@ -109,7 +109,7 @@ Ao identificarmos a UBS como o elemento central de nosso trabalho, consideramos 
 "A telemedicina e o monitoramento remoto de pacientes têm demonstrado melhorar significativamente os resultados clínicos, reduzir custos com cuidados de saúde e aumentar a satisfação dos pacientes. Os dados mostram que a utilização dessas tecnologias pode reduzir hospitalizações, melhorar a gestão de doenças crônicas e promover um aumento na adesão ao tratamento, resultando em melhores desfechos e menores custos para os sistemas de saúde."²
 (Smith et al., 2023, Telemedicine and Remote Monitoring: Impact on Health Outcomes and Healthcare Costs. Journal of Medical Systems, 47(8): 143.)
 
-## 2.1 História e evolução da telessaúde no Brasil
+### 2.1 História e evolução da telessaúde no Brasil
 
 A trajetória da telessaúde no Brasil mostra um processo gradual de adoção de tecnologias digitais, resultando em melhorias significativas no acesso e na qualidade do atendimento. Em 1964, foi criado o Serviço Federal de Processamento de Dados (SERPRO), seguido pela promulgação da Lei Nacional de Informática em 1984. Em 1991, foi estabelecido o DATASUS (Departamento de Informática do Sistema Único de Saúde). A primeira norma do Conselho Federal de Medicina (CFM) sobre telemedicina foi promulgada em 2002 (Resolução CFM no 1643/2002), abrangendo quase todas as modalidades presentes na regulamentação atual, exceto a teleconsulta. Um marco importante ocorreu em 2005, com o lançamento do Programa Nacional Telessaúde Brasil Redes pelo Ministério da Saúde (MS), que começou como uma iniciativa focada em telemática e telemedicina.
 Em 2020, durante a pandemia de COVID-19, a telessaúde e a telemedicina tiveram uma expansão significativa. Em março daquele ano, o MS publicou a Portaria no 467, que autorizou temporariamente a realização de teleconsultas, marcando um avanço importante nesses serviços.
@@ -118,11 +118,11 @@ No mesmo ano, a Portaria no 1348 do MS regulamentou as ações de telessaúde no
 A lei também estabelece que qualquer norma que restrinja o atendimento à distância deve justificar essa necessidade e determina que a inscrição secundária em conselho de classe não é necessária para atuação exclusivamente à distância.
 Por fim, em janeiro de 2023, foi criada a Secretaria de Saúde Digital (SEIDIGI) por meio do Decreto 11.358, com a missão de formular políticas públicas para a gestão da saúde digital. A SEIDIGI apoiar as Secretarias do MS, gestores, profissionais e usuários no planejamento, uso e incorporação de tecnologias de informação e comunicação (TIC), incluindo telessaúde, infraestrutura de TIC, desenvolvimento de software, interoperabilidade e proteção de dados, promovendo a transformação digital no SUS para garantir acesso universal e igualitário aos serviços de saúde.
 
-# 3. OBJETIVO
+## 3. OBJETIVO
 
 Apoiar na implementação de serviços de saúde digital na Atenção Primária à Saúde (APS), com a apresentação de melhores práticas na preparação e operação do serviço, orientando de forma técnica e estrutural o ambiente operacional que será utilizado como plataforma de atendimento para as Unidades Básicas de Saúde (UBS) e Postos de Atendimento.  Esclarecer e orientar no bom uso das tecnologias existentes quanto à segurança da informação alinhada às normativas vigentes, bem como a operacionalização da Ação Estratégica SUS Digital - Telessaúde, na formação de profissionais de saúde implantação de infraestrutura, conectividade e interoperabilidade das plataformas de telessaúde, em alinhamento com a oferta de serviços de telessaúde de acordo com as demandas estadual, distrital ou municipal.
 
-# 4. ESCOPO
+## 4. ESCOPO
 
 Este guia abrange as principais tecnologias e práticas para a implementação de telessaúde em Unidades Básicas de Saúde (UBS), com foco em facilitar a comunicação entre profissionais de saúde e pacientes e melhorar a gestão do cuidado remoto. A seguir, são destacadas as seguintes estratégias para garantir que o atendimento seja realizado de forma eficaz e segura.
 
@@ -131,7 +131,7 @@ Para a infraestrutura de atendimento, a instalação de Pontos de Telessaúde be
 A segurança e a proteção dos dados também são  prioridades na estratégia SUS Digital. O armazenamento de imagens, como radiografias e fotografias de lesões, deve ser feito em nuvem com criptografia e backups regulares, conforme as normas da Lei Geral de Proteção de Dados Pessoais (LGPD). As prescrições médicas podem ser enviadas de forma segura por sistemas com assinatura digital, garantindo sua validade legal e a confidencialidade das informações sensíveis do paciente.
 
 
-# 5. INSTRUMENTOS OPERACIONAIS
+## 5. INSTRUMENTOS OPERACIONAIS
 
 Conforme PORTARIA GM/MS Nº 3.691, DE 23 DE MAIO DE 2024, a Ação Estratégica SUS Digital - Telessaúde, deverá em sua estrutura atender as seguintes modalidades¹:
 **Teleconsultoria:** consultoria mediada por tecnologias digitais de informação e comunicação - TDIC, realizada entre profissionais de saúde, com a finalidade de esclarecer dúvidas sobre procedimentos clínicos, ações de saúde e questões relativas ao processo de trabalho, podendo ser de dois tipos:
@@ -162,7 +162,7 @@ Além das modalidades de Teleatendimento há também a necessidade operacional e
 3.	Integração ao Sistema de Saúde Local: A telessaúde deve ser integrada aos sistemas de saúde existentes, como os prontuários eletrônicos e as bases de dados do Sistema Único de Saúde (SUS), permitindo um acompanhamento contínuo e integrado do paciente.
 4.	Acessibilidade para os Pacientes: A telessaúde deve ser acessível para todas as camadas da população, incluindo aqueles com menor familiaridade com tecnologia. Isso implica em um atendimento que seja intuitivo, e que ofereça suporte técnico tanto para os pacientes quanto para os profissionais de saúde. Considerando também o atendimento guiado por profissional qualificado no local do atendimento que possa instruir o paciente e se possível assumir o papel de interlocutor no processo.
 
-## 5.1. Benefícios Esperados:
+### 5.1. Benefícios Esperados:
 
 **Figura 2:  Processo necessidade operacional**
 Ampliar o Acesso à Saúde: A telessaúde facilita o atendimento de pacientes em áreas rurais e periféricas, permitindo que sejam atendidos por médicos e especialistas sem a necessidade de deslocamento.
@@ -171,12 +171,12 @@ Reduzir Custos: A diminuição da necessidade de deslocamentos e a redução de 
 Eficiência no Atendimento: A utilização de prontuário eletrônico permite que o acompanhamento dos pacientes seja mais preciso e contínuo.
 Melhoria na Qualidade do Cuidado: Pacientes podem ter um acompanhamento mais próximo e personalizado, com maior facilidade de agendamento e consultas rápidas.
 
-# 6. ASPECTOS TÉCNICOS
+## 6. ASPECTOS TÉCNICOS
 
 A adequação do ambiente para uma teleconsulta é crucial para assegurar um bom andamento do atendimento, além de garantir a segurança e a privacidade do paciente. O profissional de saúde deve estar atento a diversos fatores para criar as condições adequadas para essa interação. Abaixo estão alguns pontos destacados, incluindo o link do Manual de Integração dos Médicos do Núcleo de Saúde Digital.
 eBook - Manual de Integração de Médicos do Núcleo de Saúde Digital
 
-## 6.1. Ambiente
+### 6.1. Ambiente
 
 **Ambiente privativo e silencioso:** o local deve ser livre de distrações e ruídos, com acústica apropriada para garantir a privacidade e a concentração. Não é adequado estar em movimento, por exemplo dirigindo, caminhando ou em área ou situações expostas a riscos.
 **Sala Específica para Atendimento**
@@ -194,7 +194,7 @@ Garantir que as webcams utilizadas sejam capazes de transmitir vídeo em qualida
 Providenciar recursos para atender deficientes visuais, auditivos e pessoas com mobilidade reduzida. Implementar legendas automáticas, tradutores de libras e intérpretes para deficientes auditivos, além de cadeira adaptada e equipamentos de fácil acesso para pessoas com mobilidade limitada. Oferecer treinamento regular para os atendentes.
 O uso da tecnologia na assistência depende da validação técnica, operacional e funcional dos dispositivos eletrônicos nas UBSs. É essencial disponibilizar um checklist para  avaliar a qualidade dos equipamentos e testar a conectividade com periodicidade diária, com a presença de um membro da equipe local para garantir a manutenção da infraestrutura e o funcionamento adequado do serviço.
 
-## 6.2. Equipamentos
+### 6.2. Equipamentos
 
 **Computador:** o hardware, processador e placa de vídeo devem ser compatíveis para garantir um contato de áudio e vídeo de alta qualidade.
 **Periféricos:** Monitor, caixa de som, microfone, ou headset, e câmera, sendo recomendável o uso de monitores em qualidade HD. Os equipamentos devem ser testados previamente e estar em bom funcionamento, preferindo-se o uso de headsets.
@@ -204,7 +204,7 @@ Os tablets devem estar configurados com as plataformas necessárias para teleate
 **Impressoras**
 A impressora deverá estar conectada ao equipamento que será utilizado juntamente com o sistema PEC para impressão de prontuários, receitas e atestados. A impressora deverá estar disponível durante todo o atendimento, sendo necessário o teste prévio para assegurar a disponibilidade.
 
-## 6.3. Sistemas
+### 6.3. Sistemas
 
 **Sistema Operacional**
 Usar sistemas operacionais estáveis e atualizados (Linux ou Windows). Realizar manutenção preventiva e atualizações de segurança regularmente para evitar vulnerabilidades.
@@ -228,16 +228,16 @@ Neste cenário devemos considerar o uso de uma boa rede de comunicação que ten
 Outro aspecto da seleção da tecnologia a ser utilizada está também nos tipos de dispositivos que podem ser aplicados a esta comunicação os quais seguem um padrão de interoperabilidade e integração,  que tenham usabilidade e portabilidade garantindo também a mobilidade destes no sentido de poder utilizar a tecnologia de forma dinâmica sem a necessidade de se prender a uma solução que gere a dependência de um conjunto de recursos, a saber:
 A utilização de um Tablet ou Notebook por exemplo no atendimento em uma UBS, elimina a necessidade de uma estrutura de vários equipamentos que possuam recursos considerados conectáveis ou seja, dispositivos como câmeras de vídeo, Microfones, auto-falantes, energia elétrica¹ em um computador pessoal de uso que seja aplicável ao ambiente, podendo levantar vários pontos de falha no ambiente que será utilizado no teleatendimento.  Portanto, a tecnologia móvel simplificará o acesso dos ACS e disponibilização para o usuário no momento do teleatendimento. (considerando um atendimento remoto onde não é possível a utilização de computador, mas que permita a utilização de um tablet que tenha autonomia de bateria)
 
-# 7. FLUXO DE ATENDIMENTO DO USUÁRIO NA UBS
+## 7. FLUXO DE ATENDIMENTO DO USUÁRIO NA UBS
 
-## 7.1. Atores Envolvidos
+### 7.1. Atores Envolvidos
 
 Profissional eSF;
 Usuário do SUS;
 Gestor Municipal; e,
 Médico (Teleatendimento).
 
-## 7.2. Início da Consulta
+### 7.2. Início da Consulta
 
 Usuário sem/com agendamento chega à UBS para atendimento médico;
 Profissionais da eSF realizam acolhimento/pré-atendimento e classificação de risco;
@@ -248,7 +248,7 @@ Usuário necessita de atendimento Médico?
 **SIM** - preparação do ambiente para teleconsulta.
 Médico(a) realiza consulta médica e solicita apoio dos profissionais da eSF para realização de exame físico, orientações e procedimentos;
 
-## 7.3. Desfecho da Consulta
+### 7.3. Desfecho da Consulta
 
 Retorno para consulta agendada;
 Retorno para cuidado continuado/programado;
@@ -264,20 +264,20 @@ Encaminhamento para serviço de Atenção Domiciliar; e,
 Encaminhamento intersetorial.
 Os profissionais da eSF aplicam a pesquisa de satisfação para o usuário.
 
-## 7.4. Imagem Fluxo de Atendimento
+### 7.4. Imagem Fluxo de Atendimento
 
 **Imagem de exemplo**
 
-# 8. OPERAÇÃO NO TELEATENDIMENTO
+## 8. OPERAÇÃO NO TELEATENDIMENTO
 
-## 8.1.1 Perspectiva do Profissional Médico
+### 8.1.1 Perspectiva do Profissional Médico
 
 Usar smartphone, tablet, computador ou notebook.
 Estar  conectado a uma rede de internet 4G ou Wi-Fi.
 O ambiente deve ser bem iluminado, evitando que a fonte de luz esteja  atrás de você.
 Vista-se adequadamente para prestar o atendimento médico.
 
-## 8.1.2 Perspectiva do(a) Usuário (UBS)              
+### 8.1.2 Perspectiva do(a) Usuário (UBS)              
 
 Usar um smartphone, tablet, computador ou notebook.
 Estar conectado a uma rede de internet 4G ou Wi-Fi.
@@ -290,7 +290,7 @@ Se estiver utilizando um telefone celular coloque-o, preferencialmente, na horiz
 Use roupas apropriadas para realização de consulta médica ou atividade de reabilitação, que sejam confortáveis e não limitem os movimentos.
 O ambiente deve ser bem iluminado. Mas, evite deixar a fonte de luz (janela, por exemplo) atrás de você.
 
-## 8.2. Passo a Passo  - Teleatendimento (Usuário)
+### 8.2. Passo a Passo  - Teleatendimento (Usuário)
 
 Anote suas dúvidas.
 Separe os medicamentos que está utilizando.
@@ -299,7 +299,7 @@ Procure manter a privacidade do ambiente escolhido.
 Caso necessário, solicite auxílio de uma pessoa de confiança.
 Procure manter o ambiente livre de ruídos como de televisão, de eletrodomésticos, animais de estimação, etc.
 
-## 8.3. Check-list da Teleconsulta para MFCs
+### 8.3. Check-list da Teleconsulta para MFCs
 
 **(Diagramação tipo “Check”)**
 Apresente- se à pessoa, atente-se a um vestuário adequado.
@@ -313,57 +313,57 @@ Pactue e esclareça o fluxo para o envio de atestados, prescrições, solicitaç
 Confirme com a pessoa se necessita algum esclarecimento, uma vez que é possível que algo tenha se perdido.
 Para finalizar, avise que irá desconectar e se despeça.
 
-# 9 PLANO DE RESPOSTA A INCIDENTES (Contingenciamento)
+## 9 PLANO DE RESPOSTA A INCIDENTES (Contingenciamento)
 
-## 9.1. Falha de Equipamento
+### 9.1. Falha de Equipamento
 
 **Ação:** Substituição imediata por equipamentos de backup disponíveis. Manutenção corretiva ou troca de peças defeituosas.
 **Responsável:** Técnico de TI, Equipe local ou Gestor da UBS.
 
-## 9.2. Falha de Conectividade
+### 9.2. Falha de Conectividade
 
 **Ação:** Utilizar 4G como backup, realizar reboot dos dispositivos de rede e acionar a operadora para solucionar o problema.
 **Responsável:** Equipe local.
 
-## 9.3. Falha no Sistema Operacional ou Software
+### 9.3. Falha no Sistema Operacional ou Software
 
 **Ação:** Verificar possibilidade de re-instalação do software afetado. Contatar suporte técnico para resolução de problemas mais complexos.
 **Responsável:** Equipe local.
 
-## 9.4. Falha de Energia
+### 9.4. Falha de Energia
 
 **Ação:** Garantir que a fonte de energia esteja funcionando corretamente. Em caso de queda prolongada de energia, reagendar o atendimento para outra data ou, se necessário, optar pela chamada telefônica.
 **Responsável:** Equipe local.
 
-## 9.5. Falha na Qualidade de Áudio ou Vídeo
+### 9.5. Falha na Qualidade de Áudio ou Vídeo
 
 **Ação:** Verificar conexões de dispositivos, testar configurações de áudio e vídeo. Se necessário, optar pela chamada telefônica.
 **Responsável:** Técnico de TI ou responsável pelo atendimento.
 
-# 10 SEGURANÇA E ÉTICA
+## 10 SEGURANÇA E ÉTICA
 
 A segurança dos dados de saúde dos usuários é um ponto essencial para a implementação de telessaúde. 
 
-## 10.1. As práticas recomendadas incluem
+### 10.1. As práticas recomendadas incluem
 
 **Criptografia de Dados:** Todos os dados sensíveis, incluindo informações médicas e registros de consultas, devem ser criptografados tanto no armazenamento quanto na transmissão.
 Autenticação e Controle de Acesso: Implementação de sistemas de autenticação robustos, com múltiplos fatores, para garantir que apenas profissionais autorizados acessem as informações do usuário.
 Conformidade com a LGPD: A Lei Geral de Proteção de Dados (LGPD), estabelecida pela Lei no 13.709 em 14 de agosto de 2018, regula o tratamento de dados pessoais, incluindo aqueles realizados em ambientes digitais, por pessoas físicas e jurídicas, tanto do setor público quanto privado. Seu objetivo é salvaguardar os direitos fundamentais à liberdade, à privacidade e ao desenvolvimento pessoal. A telessaúde deve estar em total conformidade com a Lei Geral de Proteção de Dados (LGPD), garantindo que o consentimento informado do indivíduo seja obtido antes do compartilhamento de dados e que as informações sejam armazenadas de forma segura.
 
-## 10.2. Princípios de Ética:
+### 10.2. Princípios de Ética:
 
 A ética deve ser mantida em todos os aspectos da telessaúde, tanto na comunicação com o usuário quanto no uso das tecnologias. Considerações éticas incluem:
 **Confidencialidade:** Todos os dados da pessoa devem ser tratados de forma confidencial, com a autorização da mesma para o uso das informações. As consultas devem ser realizadas em ambientes seguros e privados.
 **Consentimento Informado:** O usuário deve ser informado sobre as tecnologias utilizadas, o tipo de consulta remota que está sendo realizada e as implicações da telessaúde em seu atendimento.
 **Transparência na Comunicação:** A comunicação entre médicos e usuários deve ser clara, respeitosa e transparente, garantindo que a pessoa compreenda todos os aspectos do seu atendimento.
 
-# 11. EFICIÊNCIA
+## 11. EFICIÊNCIA
 
 A eficiência no atendimento pode ser otimizada com o uso de tecnologias que aumentam a rapidez e precisão dos processos. Alguns princípios incluem:
 Uso de Sistemas Integrados: Sistemas de prontuário eletrônico, integração com dados de saúde ajudam a garantir que todas as informações sobre a pessoa estejam acessíveis de forma rápida e organizada.
 Automação de Processos Administrativos: Processos como agendamento de consultas, envio de lembretes e registros de informações podem ser automatizados para melhorar a eficiência operacional.
 
-# 12. TREINAMENTO E CAPACITAÇÃO
+## 12. TREINAMENTO E CAPACITAÇÃO
 
 A capacitação de profissionais é essencial para garantir que a telessaúde seja utilizada de forma adequada e eficaz. O treinamento deve incluir o uso das plataformas de telemedicina, sistemas de prontuário eletrônico, protocolos de segurança e ética na comunicação. Também é importante garantir que os profissionais de saúde saibam como lidar com eventuais falhas tecnológicas e como realizar o atendimento em situações emergenciais. 
 Após a definição da infraestrutura e a configuração dos dispositivos tecnológicos, é fundamental que a equipe de TI avalie as habilidades digitais dos responsáveis nas UBSs. Essa avaliação tem como objetivo oferecer orientações práticas para otimizar as atividades diárias, incluindo a criação de atalhos para as plataformas utilizadas.
@@ -371,7 +371,7 @@ Com base na pré-avaliação das habilidades digitais, é necessário promover a
 As configurações devem garantir a privacidade dos dados das teleconsultas e solicitar permissão para acesso ao microfone e ao áudio pelos softwares utilizados. Sistemas mais complexos podem requerer assistência em serviço da equipe de implantação durante o início do uso. No entanto, é essencial que exista um serviço de suporte contínuo, preferencialmente disponível em tempo real ou com um tempo de resposta mínimo, para identificar falhas e corrigir problemas rapidamente.
 Para apoiar essa estratégia, sugerimos a utilização da Trilha Formativa da plataforma e-SUS APS desenvolvida por parceria entre a UFMG e o Ministério da Saúde. O curso Panorama da Saúde Digital no Brasil pretende preparar os profissionais da APS para que utilizem todo o potencial dos sistemas de informação, como um dos pilares da transformação digital esperada na saúde. 
 
-# 13. CONCLUSÃO
+## 13. CONCLUSÃO
 
 A implementação da telessaúde nas Unidades Básicas de Saúde traz benefícios significativos, não apenas para os usuários, mas também para os profissionais de saúde e o sistema de saúde como um todo. Com o uso de tecnologias adequadas, como dispositivos móveis, plataformas de videoconferência e sistemas de monitoramento remoto, é possível aumentar o acesso à saúde, reduzir custos e melhorar a eficiência dos atendimentos. Ao adotar boas práticas de segurança, ética e eficiência, as UBS podem proporcionar um atendimento de alta qualidade, garantindo a proteção dos dados dos pacientes e a continuidade do cuidado. A telessaúde não é apenas uma solução prática, mas uma verdadeira transformação na maneira como pensamos a prestação de cuidados à saúde.
 
@@ -390,7 +390,7 @@ A implementação da telessaúde nas Unidades Básicas de Saúde traz benefício
 
 
 
-## REFERÊNCIAS BIBLIOGRÁFICAS
+## 14. REFERÊNCIAS BIBLIOGRÁFICAS
 
 **BRASIL**. Ministério da Saúde. Portaria nº 3.691, de 23 de maio de 2024. Altera a Portaria de Consolidação GM/MS nº 5, de 28 de setembro de 2017, para instituir a Ação Estratégica SUS Digital - Telessaúde. Diário Oficial da União, Brasília, DF, 23 mai 2024.
 **TELECONSULTA** para Atenção Primária à Saúde: Guia de Fundamentos Práticos - Assistência à Gestão. [S. l.: s. n.], 2024.
