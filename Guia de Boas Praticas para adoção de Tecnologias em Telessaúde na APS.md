@@ -18,25 +18,25 @@
 
 ## GLOSSÁRIO
 
-MS - Ministério da Saúde
-AgSUS - Agência Brasileira de Apoio a Gestão do SUS
-SUS - Sistema Único de Saúde
-UBS - Unidade Básica de Saúde
-DATASUS - Departamento de informática do Sistema Único de Saúde
-SERPRO - Serviço Federal de Processamento de Dados 
-SEIDIGI - Secretaria de Saúde Digital
-CFM - Conselho Federal de Medicina
-APS - Atenção Primária à Saúde
-PEC - Prontuário Eletrônico do Cidadão
-TABLET - Dispositivo Eletrônico Portátil
-Google Meeting - Ferramenta de Videoconferência
-Microsoft Teams - Ferramenta de Colaboração
-CAM - Cabine de Atendimento Médico
-eSF - Equipe de Saúde da Família
-LGPD - Lei Geral de Proteção de Dados Pessoais
-TDIC - Tecnologia da Informação e Comunicação
-WI-FI - Wireless Fidelity (Tecnologia de Comunicação sem Fio)
-4G - Rede Móvel de Quarta Geração
+- MS - Ministério da Saúde
+- AgSUS - Agência Brasileira de Apoio a Gestão do SUS
+- SUS - Sistema Único de Saúde
+- UBS - Unidade Básica de Saúde
+- DATASUS - Departamento de informática do Sistema Único de Saúde
+- SERPRO - Serviço Federal de Processamento de Dados 
+- SEIDIGI - Secretaria de Saúde Digital
+- CFM - Conselho Federal de Medicina
+- APS - Atenção Primária à Saúde
+- PEC - Prontuário Eletrônico do Cidadão
+- TABLET - Dispositivo Eletrônico Portátil
+- Google Meeting - Ferramenta de Videoconferência
+- Microsoft Teams - Ferramenta de Colaboração
+- CAM - Cabine de Atendimento Médico
+- eSF - Equipe de Saúde da Família
+- LGPD - Lei Geral de Proteção de Dados Pessoais
+- TDIC - Tecnologia da Informação e Comunicação
+- WI-FI - Wireless Fidelity (Tecnologia de Comunicação sem Fio)
+- 4G - Rede Móvel de Quarta Geração
 5G - Rede Móvel de Quinta Geração
 Mbps - Megabits por Segundo
 HD - High Definition (Alta Definição)
