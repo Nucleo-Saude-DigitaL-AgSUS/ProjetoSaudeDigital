@@ -96,12 +96,12 @@ Está ainda entre as suas competências desenvolver o ensino, a pesquisa e a ext
 
 ## 1. INTRODUÇÃO
 
-## 1.1. Sobre este Guia
+### 1.1. Sobre este Guia
 Este guia foi elaborado para fornecer um conjunto de boas práticas para a implementação bem-sucedida de telessaúde, garantindo a integração de tecnologias, a proteção de dados sensíveis e a melhoria na qualidade do atendimento, com base em princípios éticos e de segurança. O guia também abrange planos de contingência, treinamentos e capacitação necessários para garantir que todos os envolvidos na utilização das tecnologias estejam bem preparados.
 A integração dos programas de atenção à saúde e a implementação de programas de telessaúde nas Unidades Básicas de Saúde (UBS) permite que pacientes em regiões mais distantes ou em situações de vulnerabilidade social tenham acesso a consultas médicas e monitoramento contínuo de suas condições de saúde, sem a necessidade de deslocamentos longos e custosos. Além disso, o uso de tecnologias proporciona aos profissionais de saúde a oportunidade de otimizar o seu tempo e aumentar a eficiência no acompanhamento dos pacientes.
 Fica instituída a Ação Estratégica SUS Digital - Telessaúde, no âmbito do Programa SUS Digital, com o objetivo de apoiar a consolidação das redes de atenção à saúde e do Subsistema de Saúde Indígena, por meio do estabelecimento de diretrizes e da oferta de serviços que promovam a integralidade e a continuidade do cuidado entre todos os níveis de atenção no Sistema Único de Saúde - SUS.¹
 
-# 2. VISÃO GERAL
+## 2. VISÃO GERAL
 
 Estudos que envolvem tecnologia em saúde tem como requisitos que vão desde recursos humanos às ferramentas tecnológicas necessárias para sustentar toda a estrutura de serviços. Portanto, considerar a adoção de ferramentas que sejam capazes de atender aos requisitos funcionais e não funcionais de um determinado serviço fazem toda a diferença para a operação na ponta.
 O guia apresenta orientações sobre o impacto positivo da telemedicina e monitoramento remoto na entrega de cuidados em saúde, melhorias significantes em pacientes atendidos, com uma redução de custos e aumento nos níveis de satisfação dos usuários.
