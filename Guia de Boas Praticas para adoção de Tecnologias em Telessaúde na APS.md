@@ -342,7 +342,7 @@ Para finalizar, avise que irá desconectar e se despeça.
 
 ## 10 SEGURANÇA E ÉTICA
 
-A segurança dos dados de saúde dos usuários é um ponto essencial para a implementação de telessaúde. 
+A segurança dos dados de saúde dos usuários é um ponto essencial para a implementação de telessaúde. Deve-se reiterar, que as recomendações aqui expostas, são complementares as resoluções e normativos do Conselho Profissional e seus respectivos Códigos de Ética Profissionais. 
 
 ### 10.1. As práticas recomendadas incluem
 
