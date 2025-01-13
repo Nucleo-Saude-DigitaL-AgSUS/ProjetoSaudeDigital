@@ -322,12 +322,12 @@ Para finalizar, avise que irá desconectar e se despeça.
 
 ### 9.2. Falha de Conectividade
 
-**Ação:** Utilizar 4G como backup, realizar reboot dos dispositivos de rede e acionar a operadora para solucionar o problema.
+**Ação:** Utilizar redes móveis 4G/5G como backup, realizar a reinicialização dos dispositivos de rede e acionar a operadora para solucionar o problema. Caso não seja possível utilizar internet remota, considerar atendimento via ligação telefônica para casos específicos. Em casos em que a teleconsulta não seja possível, considerar reagendamento.
 **Responsável:** Equipe local.
 
 ### 9.3. Falha no Sistema Operacional ou Software
 
-**Ação:** Verificar possibilidade de re-instalação do software afetado. Contatar suporte técnico para resolução de problemas mais complexos.
+**Ação:**  Verificar possibilidade de re-instalação do software afetado. Contatar suporte técnico para resolução de problemas mais complexos. Considerar reagendar o atendimento para outra data ou, se necessário, optar pela chamada telefônica e utilizar software alternativo para registro temporário. 
 **Responsável:** Equipe local.
 
 ### 9.4. Falha de Energia
