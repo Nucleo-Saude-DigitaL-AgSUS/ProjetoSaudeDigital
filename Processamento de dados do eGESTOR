@@ -1,0 +1,126 @@
+import pandas as pd
+import os
+from datetime import datetime
+
+def extrair_ultima_data(data_str):
+    """
+    Função para extrair e formatar a última data de uma string com múltiplas datas separadas por pipe (|)
+    Retorna no formato DD/MM/YYYY
+    
+    Args:
+        data_str (str): String contendo uma ou mais datas separadas por |
+    
+    Returns:
+        str: Última data no formato DD/MM/YYYY ou None se inválida
+    """
+    if isinstance(data_str, str):
+        datas = [d.strip() for d in data_str.split('|') if d.strip()]
+        if datas:
+            ultima_data = datas[-1]
+            try:
+                # Converte para datetime e formata para DD/MM/YYYY
+                data_obj = pd.to_datetime(ultima_data, dayfirst=True)
+                return data_obj.strftime('%d/%m/%Y')
+            except:
+                return None
+    return data_str
+
+def calcular_diferenca_dias(data_inicio_str, data_fim_str):
+    """
+    Calcula a diferença em dias entre duas datas no formato DD/MM/YYYY
+    Retorna None se alguma das datas for inválida
+    """
+    try:
+        # Converter strings para objetos datetime
+        data_inicio = datetime.strptime(data_inicio_str, '%d/%m/%Y') if pd.notnull(data_inicio_str) else None
+        data_fim = datetime.strptime(data_fim_str, '%d/%m/%Y') if pd.notnull(data_fim_str) else None
+        
+        if data_inicio and data_fim:
+            return (data_fim - data_inicio).days
+    except:
+        pass
+    return None
+
+def processar_planilhas():
+    """
+    Função principal que consolida e processa as planilhas:
+    1. Filtra por status específicos
+    2. Processa datas no formato DD/MM/YYYY
+    3. Calcula diferença entre datas
+    4. Filtra por >30 dias
+    5. Atualiza valores de status
+    """
+    # Parâmetros configuráveis
+    input_dir = r'input'
+    output_file_final = 'consolidado_filtrado_tratado.xlsx'
+    coluna_filtro = 'STATUS DO PROFISSIONAL'
+    valores_filtro = ['Licença Maternidade', 'Licença Médica - acima de 15 dias']
+    novo_valor_filtro = 'Licença Médica - acima de 30 dias'
+    colunas_remover = ['CID', 'STATUS DA BOLSA', 'DIAS DE FALTA DO PROFISSIONAL', 'ANEXO']
+    colunas_data = ['DATA INICIO', 'DATA FIM']
+    nome_coluna_diferenca = 'DIAS DE LICENÇA'
+    dias_minimos = 30
+    
+    # ETAPA 1: Consolidação e filtro inicial
+    consolidado = pd.DataFrame()
+    
+    print("Iniciando processamento em lote...")
+    for arquivo in os.listdir(input_dir):
+        if arquivo.endswith(('.xlsx', '.xls')):
+            print(f'Processando: {arquivo}...')
+            
+            try:
+                df = pd.read_excel(os.path.join(input_dir, arquivo))
+                
+                if coluna_filtro in df.columns:
+                    df_filtrado = df[df[coluna_filtro].isin(valores_filtro)]
+                    consolidado = pd.concat([consolidado, df_filtrado], ignore_index=True)
+                else:
+                    print(f'Aviso: {arquivo} não possui a coluna {coluna_filtro}')
+            except Exception as e:
+                print(f'Erro ao processar {arquivo}: {str(e)}')
+    
+    if consolidado.empty:
+        print('Nenhum registro encontrado com os critérios especificados')
+        return
+    
+    # ETAPA 2: Tratamento dos dados
+    print("\nIniciando tratamento dos dados...")
+    
+    # Remover colunas não necessárias
+    consolidado.drop(columns=[col for col in colunas_remover if col in consolidado.columns], inplace=True)
+    
+    # Processar datas para formato DD/MM/YYYY
+    for coluna in colunas_data:
+        if coluna in consolidado.columns:
+            consolidado[coluna] = consolidado[coluna].apply(extrair_ultima_data)
+        else:
+            print(f'Aviso: Coluna {coluna} não encontrada')
+    
+    # Calcular diferença de dias e aplicar filtros
+    if all(col in consolidado.columns for col in colunas_data):
+        consolidado[nome_coluna_diferenca] = consolidado.apply(
+            lambda row: calcular_diferenca_dias(row[colunas_data[0]], row[colunas_data[1]]), axis=1)
+        
+        # Filtrar por >30 dias e atualizar status
+        consolidado = consolidado[consolidado[nome_coluna_diferenca] > dias_minimos]
+        consolidado[coluna_filtro] = consolidado[coluna_filtro].replace(
+            'Licença Médica - acima de 15 dias', novo_valor_filtro)
+    else:
+        print("Aviso: Não foi possível calcular dias de licença - colunas de data faltando")
+    
+    # Garantir formato DD/MM/YYYY nas colunas de data
+    for coluna in colunas_data:
+        if coluna in consolidado.columns:
+            consolidado[coluna] = pd.to_datetime(consolidado[coluna], dayfirst=True, errors='coerce').dt.strftime('%d/%m/%Y')
+    
+    # ETAPA 3: Salvar resultados
+    consolidado.to_excel(output_file_final, index=False)
+    
+    print(f"\nProcessamento concluído! Arquivo salvo como: {output_file_final}")
+    print(f"Total de registros: {len(consolidado)}")
+    print("\nAmostra dos dados finais:")
+    print(consolidado.head())
+
+if __name__ == "__main__":
+    processar_planilhas()
