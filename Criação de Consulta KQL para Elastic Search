@@ -1,0 +1,21 @@
+import pandas as pd
+
+# Ler o arquivo Excel
+df = pd.read_excel('Lista_CNS.xlsx')
+
+# Obter todos os valores CNS não vazios
+cns_list = df.iloc[:, 0].dropna().astype(str).tolist()
+
+# Construir a parte da consulta para os CNS
+if cns_list:
+    cns_query = 'profissional_cns:(' + ' OR '.join(cns_list) + ')'
+else:
+    cns_query = ''
+
+# Construir a consulta completa
+full_query = '_index:cnes-profissionais-202504 AND "TIPO EQUIPE":"70 - ESF - EQUIPE DE SAUDE DA FAMILIA"'
+if cns_query:
+    full_query += ' AND ' + cns_query
+
+print("Consulta KQL correta para Elastic Search:")
+print(full_query)
